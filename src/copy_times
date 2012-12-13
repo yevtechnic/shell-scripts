@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# This script is used in order to copy modification/creation/access times from
+# one file to another when converting formats for recordings.
+#
+# copytimes is a windows binary made for this task specifically. The source is
+# simple.
+#
+
+for file in *.amr
+do
+    file2=`echo "$file" | sed 's/\.amr/.mp3/'`
+    copytimes "$file" "$file2"
+done
