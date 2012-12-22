@@ -3,8 +3,8 @@ shell-scripts
 
 Personal shell scripts for various purposes that work personally.
 
-src/voicenotes
---------------
+`src/voicenotes`
+----------------
 
 The scripts in this directory are related to renaming files for lecture
 recordings. It currently fits my workflow, manually renaming "outliers" that
